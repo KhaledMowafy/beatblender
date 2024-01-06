@@ -6,7 +6,7 @@ const BASE_URL = 'https://musicbrainz.org/ws/2/release?artist=65f4f0c5-ef9e-490c
 const API = {
 
     
-    readAll: async (path:string) => {
+    readAll: async () => {
         try {
             const authAxios = axios.create({
                 headers: {

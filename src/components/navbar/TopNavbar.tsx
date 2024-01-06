@@ -6,7 +6,7 @@ function TopNavbar() {
 
     useEffect(() => {
         const delayDebounceFn = setTimeout(() => {
-          API.readAll(`artist${name}`)
+          API.readAll()
         }, 3000)
     
         return () => clearTimeout(delayDebounceFn)

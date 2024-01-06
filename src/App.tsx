@@ -1,7 +1,7 @@
 import './App.css'
 // import Sidebar from './components/sidebar/Sidebar'
 // import TopNavbar from './components/navbar/TopNavbar'
-import Home from './pages/home'
+import Home from './pages/Home'
 import WhoWeAre from './pages/WhoWeAre';
 import { Navigation } from 'moffbar';
 
@@ -17,7 +17,7 @@ function App() {
         <Home/>
         <WhoWeAre/>
      </Navigation>
-     
+
     </>
   )
 }
