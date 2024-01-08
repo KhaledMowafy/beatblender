@@ -9,9 +9,8 @@ function Home() {
   const link = Base64.decode(`${id}`)
   return (
    <>
-    <div className="h-screen mt-20 ms-30 bg-[#1B1C1D]">
-        <h1>hello world!</h1>
-        <a href={link}className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Knowticed</a>
+    <div className="h-screen mt-20 ms-30 bg-[#1B1C1D] flex items-center content-center flex-col">
+        <a href={link}className="mt-52 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded "><span className="w-full flex items-center text-center">Knowticed</span></a>
     </div>
    </>
   )
