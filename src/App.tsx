@@ -7,15 +7,15 @@ import { Navigation } from 'moffbar';
 
 function App() {
   const data=[
-    {link: "/:id", name:"home"},
-    {link:"/whoweare", name:"Who We Are"}
+    {link: "/", name:"home"},
+    {link:"/knowticed/:id", name:"Who We Are"}
   ]
 
   return (
     <>
      <Navigation data={data} bgcolor="radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(77,1,1,1) 0%, rgba(11,0,0,1) 100%)" textColor="black" textStroke='white' closeButton='black' closeActive='white'>
-        <Home/>
         <WhoWeAre/>
+        <Home/>
      </Navigation>
 
     </>
