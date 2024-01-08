@@ -7,7 +7,7 @@ import { Navigation } from 'moffbar';
 
 function App() {
   const data=[
-    {link: "/", name:"home"},
+    {link: "/:id", name:"home"},
     {link:"/whoweare", name:"Who We Are"}
   ]
 
